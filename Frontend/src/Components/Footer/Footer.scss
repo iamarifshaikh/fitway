@@ -1,0 +1,28 @@
+.footer-img {
+    width: 2.5rem;
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 920px) {
+    .icon {
+      width: 18px; 
+      height: 18px;
+    }
+  }
+  
+  @media (max-width: 440px) {
+    .icon {
+      width: 16px; 
+      height: 16px;
+    }
+  
+    .row.py-2 {
+      justify-content: center; 
+    }
+  
+    .col-md-3 {
+      ul {
+        text-align: center;
+      }
+    }
+  }

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Rubik, "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (max-width:920px) {
+    html{
+        font-size: 55%;
+    }
+    h1{
+        font-size: 55%;
+    }
+}
+
+@media (max-width:410px) {
+    html{
+        font-size: 35%;
+    }
+    h1{
+        font-size: 35%;
+    }
+}

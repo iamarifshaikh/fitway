@@ -1,0 +1,62 @@
+.fitness-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    margin: 0 auto;
+
+    .fit-navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;   
+        cursor: pointer;
+        padding: 15px 0;
+        font-size: 20px;
+
+        .navbar-left {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            align-items: center;
+        }
+            
+        .navbar-right{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            
+            .navbar-button {
+
+                .nav-auth-button{
+                    background-color: #e12866;
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+                    padding: .5rem 1rem;
+                    font-size: 15px;
+                    border-radius: 3px;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+.admin-panel{
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+}
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Adjust the color and transparency as needed */
+  }
+  
+  /* Optional: Adjust the modal content background */
+  .modal-content {
+    background-color: #fff; /* Set the background color as needed */
+  }

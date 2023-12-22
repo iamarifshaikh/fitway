@@ -1,0 +1,42 @@
+// workout.scss
+
+.card-title {
+    font-size: 1.5rem; 
+  }
+  
+  .btn {
+    font-size: 1rem; 
+  }
+  
+  @media (max-width: 768px) {
+    .card-title {
+      font-size: 1.2rem; 
+    }
+  }
+  
+  @media (max-width: 412px) {
+    .card-title {
+      font-size: 1rem; 
+    }
+
+    .explore-button{
+        font-size: 0.8rem;
+        padding: 0.3rem;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+    }
+  }
+
+  .explore-button {
+    font-size: 1rem; 
+  
+    @media (max-width: 768px) {
+      font-size: 0.8rem; 
+    }
+  
+    @media (max-width: 412px) {
+      font-size: 0.6rem;
+    }
+  }

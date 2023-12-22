@@ -1,0 +1,84 @@
+.fitness-home {
+    display: flex;
+    flex-direction: column;
+    max-width: 75rem;
+    margin: 0 auto;
+  
+    .fit-home {
+      display: flex;
+      flex-direction: row;
+  
+      .fitness-home-one {
+        flex: 1;
+        margin-top: 5rem;
+  
+        h1 {
+          font-size: 5rem;
+        }
+  
+        p {
+          font-size: 1.5rem;
+          margin-top: 2rem;
+        }
+  
+        button {
+          background-color: #e12866;
+          outline: none;
+          border: none;
+          color: white;
+          padding: 1rem 1.5rem;
+          margin-top: 1rem;
+          border-radius: 0.4rem;
+          cursor: pointer;
+          font-size: 1rem;
+        }
+      }
+  
+      .fitness-home-two {
+        flex: 1;
+  
+        img {
+          width: 110%;
+        }
+      }
+    }
+  
+    .fitness-home-info {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  
+      > div {
+        text-align: center;
+        margin: 1rem;
+  
+        h4 {
+          font-size: 1.1rem;
+          margin-top: 1rem;
+        }
+  
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width:920px) {
+    html{
+        font-size: 55%;
+    }
+    h1{
+        font-size: 55%;
+    }
+  }
+
+  @media (max-width:440px) {
+    html{
+        font-size: 35%;
+    }
+    h1{
+        font-size: 35%;
+    }
+  }
