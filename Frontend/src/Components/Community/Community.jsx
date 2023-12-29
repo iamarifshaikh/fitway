@@ -17,7 +17,7 @@ const Community = () => {
 
   return (
     <>
-      <Navbar />
+      <Navbar hasFitnessData={false}/>
       <br />
       <div className="container">
         <div className="row">

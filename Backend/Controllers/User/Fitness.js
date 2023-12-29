@@ -8,7 +8,6 @@ import { Problem, Success } from "../../Custom/Message.js";
  */
 
 export const addFitnessData = async (request, response, next) => {
-  console.log(request.body)
   try {
     const userId = await request.userId;
 

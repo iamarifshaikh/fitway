@@ -1,5 +1,5 @@
 import express from 'express'
-import { config } from 'dotenv'
+import dotenv, {config} from 'dotenv'
 import connection from './Database/connection.js'
 import router from './Router/routes.js'
 import cookieParser from 'cookie-parser'
@@ -12,6 +12,7 @@ import Fitness from './Schema/User/fitness.js'
 import WorkoutPlan from './Schema/Admin/Workout.js'
 import CommunityPost from './Schema/User/CommunityPost.js'
 import AdminSignUp from './Schema/Admin/signup.js'
+dotenv.config()
 
 import { Router } from 'express'
 import * as auth from './Controllers/User/Authentication.js'
